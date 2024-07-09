@@ -685,7 +685,7 @@ ul.widget-recent-post { }
 .widget-text { }
 .widget-contact { }
 .widget-social { }
-.social-circle a { height: 33px; width: 33px; background-color: #e21701; color: #fff; border-radius: 100%; padding: 5px; display: inline-block; text-align: center; margin-right: 10px; }
+.social-circle a { height: 34px; width: 34px; background-color: #e21701; color: #fff; border-radius: 100%; padding: 4px; display: inline-block; text-align: center; margin-right: 10px; }
 .social-circle a:hover { background-color: #b01101; }
 .widget-call-to-action{background-color: #eddba5;}
 .widget-call-to-action .widget-title{font-size: 20px; font-weight: 400; margin-bottom: 20px; line-height: 28px;}
