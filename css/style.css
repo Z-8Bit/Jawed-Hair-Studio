@@ -442,10 +442,6 @@ label { }
 .page-breadcrumb .breadcrumb { background-color: transparent; margin-bottom: 0px; font-size: 12px; text-transform: uppercase; }
 
 /*-----------------------------------
-    6. Slider 
--------------------------------------*/
-
-/*-----------------------------------
 7. Content 
 -------------------------------------*/
 
@@ -481,10 +477,6 @@ margin-bottom: 8px; padding: 0 0 8px 40px; color: #747474; }
 .tiny-footer {  padding-top: 19px; padding-bottom: 9px; font-size: 12px; 
     color: #56575e; text-align: left; text-transform: uppercase; text-align: center; }
 .copyright-content { padding: 12px; color: #747474; }
-
-/*-----------------------------------
-9. Pages 
--------------------------------------*/
 
 /*-------------------------
  9.1 About us
@@ -558,88 +550,6 @@ color: #fff;    /* bottom: 0px; */ }
 address { margin-bottom: 20px; font-style: normal; line-height: 1.42857143; }
 
 /*------------------------
- 10. Blog pages
---------------------------*/
-.content { }
-.sidebar { }
-.post-block, .post-quote{ position: relative; background-color: #f4edec; padding: 30px; border-radius: 10px;  margin-bottom: 30px;}
- 
-/*-- use for thumbnail --*/
-.post-holder { position: relative; margin-bottom: 30px; }
-/*-- for single post page --*/
-.post-img { position: relative; }
-.post-img img{border-radius: 10px; width: 100%;}
-.post-title { }
-.post-content {padding-top: 40px; padding-right: 40px;}
-.post-header { }
-
-/*-------- Post meta --------*/
-.meta { font-size: 12px; text-transform: uppercase; margin-bottom: 20px; font-family: 'Montserrat', sans-serif;}
-.meta-date { }
-.meta-user { }
-.meta-comment { }
-.meta-author { }
-.meta-cat { }
-.meta-date, .meta-author, .meta-comment, .meta-cat { display: inline-block; margin-right: 10px; }
-.meta-link { }
-.meta-tags { }
-
-/*-------- Post Type --------*/
-.post-sticky { background: url(../images/sticky.png) no-repeat; position: absolute; right: 35px; bottom: 35px; width: 30px; height: 30px; color: #fff; }
-.post-gallery { }
-.post-video { }
-.post-video .video-sign { }
-.post-audio {}
-.post-quote {background-color: #e21701; }
-.quote-content{}
-.post-quote blockquote{color: #fff; font-size: 34px; line-height: 42px;}
-/*-------- Related Post --------*/
-.related-post-block { border-top: 1px solid #eee; padding-top: 29px; margin-top: 30px; margin-bottom: 30px; }
-.related-post {margin-bottom: 30px; }
-.related-post-title { }
-.related-post-img { margin-bottom: 30px; }
-.related-post-img img{border-radius: 10px;}
-/*----- Prev Next Post -----*/
-.post-navigation { margin-bottom: 30px; }
-.nav-previous, .nav-next { border: 1px solid #f4edec; padding: 20px; }
-.nav-previous { }
-.nav-next { }
-.prev-post { }
-.next-post { }
-.prev-link { }
-.next-link { }
-.prev-link, .next-link { margin-bottom: 10px; display: block; text-transform: uppercase; font-size: 12px; }
-
-/*----- Author Post -----*/
-.author-post { margin-bottom: 30px; background: #f4edec; padding: 30px; border-radius: 10px; }
-.author-img { }
-.author-title { }
-.author-img img { width: 100%; border-radius: 10px; }
-.author-bio { }
-.author-meta { }
-.author-name { }
-.author-header { }
-.author-detail { }
-.author-link { }
-.author-social { }
-.author-social ul { }
-.author-social ul li { }
-.author-social ul li a { }
-.author-social ul li a:hover { }
-.author-info { }
-
-/*------------- Post Pagination -------------*/
-.st-pagination { }
-.st-pagination .pagination>li>a, .pagination>li>span { position: relative; float: left; margin-left: -1px; line-height: 1.42857143; color: #3c3c3c; text-decoration: none; 
-    font-size: 12px; background-color: #fff; 
-    font-weight: 700; text-transform: uppercase; margin-right: 5px; 
-    margin-bottom: 5px; padding: 8px 13px; border: 1px solid #efefef; border-radius: 100%; }
-.st-pagination .pagination>li>a:focus, .st-pagination .pagination>li>a:hover, .st-pagination .pagination>li>span:focus, .st-pagination .pagination>li>span:hover, .st-pagination .pagination>li>a.active { z-index: 2; color: #fff; background-color: #e21701; border: 1px solid #f4edec; }
-.st-pagination .pagination>li:first-child>a, .st-pagination .pagination>li:first-child>span { margin-left: 0; border-radius: 100%; }
-.st-pagination .pagination>li:last-child>a, .st-pagination .pagination>li:last-child>span { border-radius: 100%; }
-.st-pagination .pagination>.active>a, .st-pagination .pagination>.active>a:focus, .st-pagination .pagination>.active>a:hover, .st-pagination .pagination>.active>span, .st-pagination .pagination>.active>span:focus, .st-pagination .pagination>.active>span:hover { z-index: 3; color: #fff; cursor: default; background-color: #e21701;border: 1px solid #e21701;}
-
-/*------------------------
   12. Sidebar / Widgets
 --------------------------*/
 
@@ -691,31 +601,6 @@ ul.widget-recent-post { }
 .team-name { }
 .team-meta { text-transform: uppercase; font-size: 12px; color: #e21701; font-weight: 500; letter-spacing: 1px; }
 .team-designation { }
-
-/*----- Comment Post -----*/
-.comments-area { }
-.comments-title { border-bottom: 1px solid #f4edec; padding-bottom: 20px; margin-bottom: 30px; }
-.comment-list { list-style: none;  padding: 0px;}
-.comment { }
-.comment-body { margin-top: 20px; margin-bottom: 30px; border-bottom: 1px solid #f4edec; padding-bottom: 20px; }
-.comment-author { }
-.comment-author img { float: left; }
-.comment-info { padding-left: 120px; }
-.comment-header { margin-bottom: 0px; }
-.user-title { font-size: 15px; color: #474747; margin-bottom: 10px; font-weight: 500; }
-.comment-meta { }
-.comment-meta-date { color: #98989c; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; }
-.comment-content { color: #6f6f6f; margin-bottom: 20px; }
-.reply { }
-
-/*---- thread comments --------*/
-.childern { padding-left: 100px; list-style: none; }
-.childern .comment-body { background-color: #f4edec; padding: 20px; border-radius: 10px; }
-.childern .comment-info { padding-left: 120px; }
-
-/*----- Leave Reply -----*/
-.leave-comments { margin-top: 30px; background-color: #f4edec; padding: 40px; border-radius: 10px;}
-.leave-comments .control-label { color: #474747; font-weight: 600; font-size: 13px; }
 
 /*--------------------------------
  Extra Plugin CSS - Back to top  
